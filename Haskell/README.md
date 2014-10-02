@@ -1,1 +1,1 @@
-Haskell museum.
+Haskell Art Gallery.

@@ -1,1 +1,1 @@
-My github museum. Over time, I plan to fill this repo with gems that I come across.
+An Art Gallery for programming languages. Have fun exploring the exhibits. Over time, interesting & beautiful pieces of code will be archived here.

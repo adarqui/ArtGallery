@@ -1,0 +1,28 @@
+Name:		ArtGallery
+Version:	0.1
+Author:		andrew.darqui@gmail.com
+Maintainer:     andrew.darqui@gmail.com
+License:        BSD3
+License-File:	LICENSE
+Synopsis:	A ArtGallery of Code
+Description:	A ArtGallery of Code
+Category:	Data,Experimental,Art
+Build-Type:	Simple
+Cabal-Version:	>= 1.8
+tested-with:    GHC == 7.6.2
+extra-source-files: README.md
+
+Source-Repository head
+ Type:               git
+ Location:           https://github.com/adarqui/ArtGallery
+
+Library
+ HS-Source-Dirs:     Haskell/src
+ Exposed-Modules:    ArtGallery
+                     ArtGallery.Math.Fib.Naive
+                     ArtGallery.Math.Fib.ZipWith
+                     ArtGallery.Sort.QuickSort.Naive
+                     ArtGallery.Sort.QuickSort.NaiveOneLine
+                     ArtGallery.Sort.PrefixTree.AlexandersGreen
+ Build-Depends:      base == 4.*
+ GHC-Options:        -Wall
